@@ -1,6 +1,6 @@
 <?php 
 
-	$ws = getenv('TEMP');
+	$ws = getenv('WEBSV');
 	echo "HOLA ".$ws;
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $ws);
