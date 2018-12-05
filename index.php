@@ -1,6 +1,6 @@
 <?php 
 
-	$ws = "http://consulta-vertex.apps.openshift-master.innovacioneveris.tech/clientes";//getenv('WEBSV');
+	$ws = "http://vertex:9000/clientes";//getenv('WEBSV');
 	//echo "HOLA ".$ws;
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $ws);
